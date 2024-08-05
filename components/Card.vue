@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import type { ICard } from "~/types/card.interface";
-import { computed } from 'vue';
 
 const props = defineProps<{
   item: ICard
